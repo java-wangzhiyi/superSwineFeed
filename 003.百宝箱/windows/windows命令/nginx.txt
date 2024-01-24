@@ -1,0 +1,11 @@
+start nginx    		              --- 启动nginx服务器
+tasklist /fi "imagename eq nginx.exe"   ---查询window任务是否包含nginx服务（imagename:映射服务名， eq就是等于意思）
+nginx -s quit		              ---关闭nginx进程，windows的nginx支持启动多个
+
+
+s 有 stop(暂停)  quit(退出)， reopen(重新打开)， reload(重新加载)
+
+如果你多次执行start nginx 会启动多个nginx服务，但是出现问题是，你关不掉你最后nginx服务。原因是每次启动nginx服务，它默认在logs下生成nginx.pid文件，（它需要根据这个文件来关闭服务pid码）服务关闭的时候会自动删除这个文件，如果没有这个文件，nginx就不能结束服务。
+在logs中新建一个nginx.pid,将查出来的第一个pid放进去就好了
+
+https://blog.csdn.net/m0_37355951/article/details/78282124

@@ -1,0 +1,1 @@
+C:\Windows\System32\drivers\etc\hosts 	 	该文件保存本地域名解析

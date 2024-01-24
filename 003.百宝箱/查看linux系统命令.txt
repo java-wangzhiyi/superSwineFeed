@@ -1,0 +1,3 @@
+yum -y install man-pages man-db man
+man ls
+man epoll_create

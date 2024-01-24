@@ -1,0 +1,1 @@
+java -XX:+PrintCommandLineFlags -version	----查看JVM使用的默认垃圾收集器

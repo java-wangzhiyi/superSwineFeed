@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="719c7a79-fe98-410c-9453-1d16fa6345ed" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bjsxt</find>
+      <find>leyou</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>leyou</replace>
+      <replace>usian</replace>
+    </replaceStrings>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="157" />
+    <option name="y" value="68" />
+    <option name="width" value="1550" />
+    <option name="height" value="875" />
+  </component>
+  <component name="ProjectId" id="1ohES8BIqNfsiWk9XNhZKKZORgW" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606465093217" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java资料\java阶段课程资料\实训1\电商\优思安商城01 - 项目讲解、环境搭建\课件\优思安商城01 - 项目讲解、环境搭建\资料\generatorSqlmapCustom\src\com\usian\pojo" />
+      <recent name="D:\generatorSqlmapCustom" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneratorSqlmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GeneratorSqlmap" />
+      <module name="generatorSqlmapCustom" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GeneratorSqlmap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="719c7a79-fe98-410c-9453-1d16fa6345ed" name="Default" comment="" />
+      <created>1566272464958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566272464958</updated>
+      <workItem from="1566272467018" duration="258000" />
+      <workItem from="1586790949034" duration="968000" />
+      <workItem from="1586825746317" duration="7000" />
+      <workItem from="1586854972523" duration="232000" />
+      <workItem from="1589436785520" duration="235000" />
+      <workItem from="1592548798206" duration="673000" />
+      <workItem from="1592792988484" duration="645000" />
+      <workItem from="1596698895787" duration="727000" />
+      <workItem from="1596867914719" duration="91000" />
+      <workItem from="1596869665406" duration="96000" />
+      <workItem from="1597021938258" duration="670000" />
+      <workItem from="1604675956732" duration="2083000" />
+      <workItem from="1604707871726" duration="87000" />
+      <workItem from="1604716540185" duration="816000" />
+      <workItem from="1604720969038" duration="1214000" />
+      <workItem from="1605146359199" duration="1257000" />
+      <workItem from="1606114917021" duration="927000" />
+      <workItem from="1606460600892" duration="701000" />
+      <workItem from="1613730419701" duration="116000" />
+      <workItem from="1613732015352" duration="3489000" />
+      <workItem from="1613781131880" duration="50000" />
+      <workItem from="1614246706858" duration="740000" />
+      <workItem from="1615523815720" duration="97000" />
+      <workItem from="1615980393727" duration="8000" />
+      <workItem from="1615980430359" duration="100000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="9" key="GridCell.Tab.0.bottom" timestamp="1615980529962">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="9" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615980529962" />
+    <state width="1493" height="9" key="GridCell.Tab.0.center" timestamp="1615980529962">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="9" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615980529962" />
+    <state width="1493" height="9" key="GridCell.Tab.0.left" timestamp="1615980529962">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="9" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615980529962" />
+    <state width="1493" height="9" key="GridCell.Tab.0.right" timestamp="1615980529962">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="9" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615980529962" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

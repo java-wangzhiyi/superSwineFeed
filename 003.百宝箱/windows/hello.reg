@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\Test]
+"URL Protocol"="D:\\app\\向日葵\\SunloginClient_12.0.1.39931_x64.exe"
+@="TestProtocol"
+[HKEY_CLASSES_ROOT\Test\DefaultIcon]
+@="D:\\app\\向日葵\\SunloginClient_12.0.1.39931_x64.exe"
+[HKEY_CLASSES_ROOT\Test\shell]
+[HKEY_CLASSES_ROOT\Test\shell\open]
+[HKEY_CLASSES_ROOT\Test\shell\open\command]
+@="D:\\app\\向日葵\\SunloginClient_12.0.1.39931_x64.exe"
