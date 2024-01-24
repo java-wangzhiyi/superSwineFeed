@@ -1,0 +1,2 @@
+1、Scala —— Java++
+Scala基于JVM，和Java完全兼容，同样具有跨平台性、可移植性好、
