@@ -1,0 +1,2 @@
+jar -xvf  xxx.jar BOOT/xxx/xxx.properties
+jar -uvf  xxx.jar BOOT/xxx/xxx.properties

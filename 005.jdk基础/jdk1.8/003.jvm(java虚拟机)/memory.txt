@@ -1,0 +1,10 @@
+#获取占用资源较高的子线程
+top -H -p 
+
+获取占用资源较高的子线程的堆栈信息
+jstack -l 进程ID | grep `printf '%x\n' 线程ID` -C20
+											   -C20 前后各显示20行
+											   -A50 ...
+			
+#获取JVM内存使用情况			
+jstate -gcutil 进程ID

@@ -1,0 +1,1 @@
+1、collect(Collectors.toList())   ---------- 用来结束stream流
