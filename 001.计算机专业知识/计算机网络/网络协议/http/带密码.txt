@@ -1,0 +1,2 @@
+https://www.codenong.com/52341274/
+restTemplate.getInterceptors().add(new BasicAuthorizationInterceptor("username","password"));

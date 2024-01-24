@@ -1,0 +1,2 @@
+使用 RestTemplate() 报错。无法解析 map、list、json 则缺少 Jackson。
+需要引入 jackson 相关包

@@ -1,0 +1,17 @@
+https://blog.csdn.net/weixin_46031767/article/details/121808868
+#下载yumdownloadonly插件
+yum install yum-plugin-downloadonly
+
+#yum 下载rpm包到指定目录，只下载不安装
+yum install  --downloadonly --downloaddir=路径  安装包名
+实例：yum install  --downloadonly --downloaddir=/usr/local  libXScrnSaver
+#安装
+rpm -Uvh --force --nodeps *.rpm
+实例：rpm -Uvh --force --nodeps libXScrnSaver-1.2.2-6.1.el7.x86_64.rpm
+
+
+
+#修改配置文件
+#cat /etc/yum.conf 
+cachedir=/usr/local/cache  #包保存的路径
+keepcache=1
