@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+    <!--&lt;!&ndash; 添加了就不用加了 &ndash;&gt;
+    <aop:aspectj-autoproxy proxy-target-class="true" />
+
+    <bean name="hystrixCommandAspect" class="com.netflix.hystrix.contrib.javanica.aop.aspectj.HystrixCommandAspect"/>
+    <bean id="hystrixConfig"  class="com.jd.config.HystrixConfig" init-method="init"/>-->
+
+
+    <mvc:annotation-driven />
+    <context:component-scan base-package="com.jd"/>
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/view/"></property>
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+
+    <!--新建hystrixConfig bean主要是因为使用spring自带的context:property-placeholder配置加载器，hystrix无法读取。但这里会报错-->
+    <!--<bean id="hystrixConfig"  class="com.jd.config.HystrixConfig" init-method="init"/>-->
+    <aop:aspectj-autoproxy proxy-target-class="true" />
+    <bean class="com.netflix.hystrix.contrib.javanica.aop.aspectj.HystrixCommandAspect" />
+
+   <!-- &lt;!&ndash; 配置RestTemplate &ndash;&gt;
+    &lt;!&ndash;Http client Factory&ndash;&gt;
+    <bean id="httpClientFactory" class="org.springframework.http.client.SimpleClientHttpRequestFactory">
+        <property name="connectTimeout"  value="1000"/>
+        <property name="readTimeout"  value="1000"/>
+    </bean>
+
+    &lt;!&ndash;RestTemplate&ndash;&gt;
+    <bean id="restTemplate" class="org.springframework.web.client.RestTemplate">
+        <constructor-arg ref="httpClientFactory"/>
+    </bean>-->
+
+</beans>
